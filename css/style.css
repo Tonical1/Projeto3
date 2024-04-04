@@ -1,16 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 0%;
 }
 
 body .cardtop{
-    display::;
+    display: inline-block;
 }
 
 #calc{
    border-radius: 10%;
-   margin-left: 75px;
-   width: 178px;
 }
 
 #calc:hover{
@@ -25,11 +22,8 @@ input:focus{
     border-color: white;
 }
 
-#operar{
+.cardtop{
     background-color: #ff000034;
-    width: 50%;
-}
-
-#resultado{
-    width: 50%;
+    width: 400px;
+    height: 200px;
 }
